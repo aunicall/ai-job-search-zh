@@ -1,0 +1,19 @@
+node_modules/
+.next/
+out/
+data/
+.env*
+!.env.example
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# 本地开发测试；scripts/next.mjs 为应用启动入口，必须保留。
+/tests/
+/scripts/verify-offer-skill.ts
+
+# Next.js 自动生成的 AI 开发辅助说明。
+/AGENTS.md
+
+# 第三方 Skill 由用户从官方安装，不随项目发布。
+/assets/skills/offer-skill/

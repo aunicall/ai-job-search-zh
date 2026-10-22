@@ -1,0 +1,40 @@
+{
+  "name": "offer-knocks",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offer来敲门 · 本地优先的 AI 求职工作台",
+  "scripts": {
+    "dev": "node scripts/next.mjs dev --hostname 127.0.0.1",
+    "build": "next build --webpack",
+    "start": "node scripts/next.mjs start --hostname 127.0.0.1",
+    "check": "tsc --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "docx": "^9.5.1",
+    "jszip": "^3.10.2",
+    "lucide-react": "^0.468.0",
+    "mammoth": "^1.11.0",
+    "next": "^16.1.6",
+    "pdf-parse": "^2.4.5",
+    "playwright-core": "1.64.1",
+    "radix-ui": "^1.4.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "sharp": "^0.35.5",
+    "three": "^0.186.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.186.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "type": "module"
+}
